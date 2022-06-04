@@ -1,0 +1,425 @@
+
+.div1 {
+  background-color: #c4d70f;
+  height: 657px;
+  clip-path: polygon(0 0, 100% 0, 100% 73%, 0 100%);
+}
+#hd
+{
+  font-family: 'Dosis', sans-serif;
+  font-size: 28px;
+        font-weight: 500;
+}
+p{
+  font-family: "Poppins", sans-serif;
+}
+#sbtn
+{
+  display:inline-block;
+  padding: 8px 33px;
+  border: 2px solid white;
+  border-radius: 60px;
+}
+#sbtns
+{
+  display:inline-block;
+  padding: 8px 33px;
+  border: 2px solid white;
+  border-radius: 60px;
+}
+
+.div11
+  {
+  width:300px;
+  height:300px;
+  color: white;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding-top: 80px;
+  font-family: sans-serif;
+  }
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 1px 18px;
+  padding-left: 2px;
+}
+
+
+.nav-link {
+
+  font-size: 1.2rem;
+  font-family: serif;
+}
+
+.navbar-collapse {
+  padding-left: 900px;
+}
+
+.head1 {
+  color: black;
+font-weight: bold;
+}
+.fam
+{
+  font-family: sans-serif;
+}
+.clmn
+{
+  width: 300px;
+  height: 400px;
+  color: #fff;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding-top: 80px;
+  font-family: sans-serif;
+}
+.image1
+{
+  width: 900px;
+  height: 500px;
+  padding-left: 0px;
+  padding-right: 70px;
+  padding-bottom: 20px;
+
+}
+.navbar-brand
+{
+  font-family:  sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 300;
+
+}
+.div1_2 {
+
+  height: 500px;
+}
+.container{
+  text-align: center;
+  
+}
+.img2
+{
+  margin-top: 40px;
+  margin-left:600px;
+}
+.img3{
+margin-top: 40px;
+margin-left:600px ;
+}
+.imgdiv
+{
+  width: 40%;
+  height: 180px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.crd2
+{
+  width: 120px;
+  padding-top: 20px;
+}
+.btn1
+{
+  display: inline-block;
+    padding: 9px 35px;
+    border: 2px solid #fefeff;
+    color: #fefeff;
+    border-radius: 35px;
+}
+.btNn{
+  display: inline-block;
+    padding: 8px 25px;
+    border: 2px solid #c4d70f;
+    color: #c4d70f;
+    border-radius: 35px;
+    margin-top: 55px;
+    text-decoration: none;
+    margin-right: 9rem;
+
+}
+#aln
+{
+  margin-left: 80px;
+  margin-right: 0px;
+}
+.divbtn{
+  padding-left: 30%;
+}
+.butn
+{
+  text-decoration: none;
+}
+.span2
+{
+  color: #c4d70f;
+  font-size: 1rem;padding-top:15px;
+  padding-bottom: 10px;
+}
+.divhr
+{ 
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.inputype {
+  width: 80%;
+  padding: 2px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#frmimage
+{
+  padding-left: 10%;
+  width: 100%;
+
+}
+.inputype1 {
+  width: 80%;
+  padding: 12px 20px;
+
+}
+.butn2
+{
+  text-decoration: none;
+  border: none;
+    background-color: #a0e711;
+    color: #fff;
+    padding: 12px 45px;
+    font-size: 14px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.lastdiv
+{
+  background-color:black;
+  width: 100%;
+  height: 900px;
+  clip-path: polygon(0 315px, 100% 0, 100% 100%, 0% 100%);
+  color: #fff;
+}
+@media(max-width:900px)
+{
+  img.image1{
+    margin-top:210px;
+    width:450px;
+    height: 300px;
+  }
+  div.clmn
+  {
+    width:300px;
+    margin-top:-60px;
+    height:50px;
+  }
+  nav.li .bei
+  {
+   align-items: left;
+  }
+  }
+
+
+@media(max-width:900px)
+{
+  img.cln8
+{
+  width:380px;
+  height: 300px;
+  padding-bottom: 50px;
+}
+}
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+.div123
+{
+  background-color: #c4d70f;
+}
+.mail
+{
+  border: none;
+  border-bottom: 1px solid grey;
+ background-color: black;
+ width: 250%;
+ color: #fff;
+}
+
+.subtn
+{
+  background-color: #a0e711;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 7px 40px;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-top: 35px;
+}
+.btn0
+{
+padding-top: 30px;
+  padding-left: 370px;
+}
+.log
+{
+  width: 17%;
+}
+#hr2
+{
+  margin-top: 60px;
+  margin-left: 300px;
+  width: 700px;
+  
+}
+ 
+.carousel-indicators button[data-bs-target]
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+ color: #fff;
+ font-size: 16px;
+ font-family: 'Dosis', sans-serif;
+}
+
+#b1:hover
+{
+  background-color: black;
+  font-size: 24px;
+}
+#b2:hover
+{
+  background-color: black;
+  font-size: 24px;
+
+}
+@media(max-width:900px)
+{
+  div.lastdiv
+  {
+    height: 1700px;
+  }
+}
+
+
+input[type=text], input[type=password] {
+  
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+
+
+
+/* Full-width inputs */
+.lbl  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.bbttn{
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
